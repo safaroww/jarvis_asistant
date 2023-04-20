@@ -150,7 +150,7 @@ class Jarvis:
                 joke = pyjokes.get_joke()
                 print(joke)
                 self.jarvis_talk(joke)
-            elif 'shut up' in run_command or 'stop' in run_command:
+            elif 'shut up' in run_command or 'stop' in run_command or 'shut down' in run_command:
                 self.jarvis_talk("Goodbye!")
                 return
             else:
